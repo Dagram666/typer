@@ -31,7 +31,7 @@ public class Typer {
     public String getNick() {
         return nick;
     }
-
+private String benis = "penis";
     public void setNick(String nick) {
         this.nick = nick;
     }
