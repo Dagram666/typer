@@ -4,7 +4,7 @@ package pl.typer.hibernate.entity;
 import javax.persistence.*;
 
 @Entity
-@Table(name = "typer")
+@Table(name = "apsc")
 public class Typer {
 
     @Id
@@ -31,7 +31,7 @@ public class Typer {
     public String getNick() {
         return nick;
     }
-private String benis = "penis";
+
     public void setNick(String nick) {
         this.nick = nick;
     }
@@ -51,6 +51,9 @@ private String benis = "penis";
     public void setPoints(Integer points) {
         this.points = points;
     }
+
+
+
 
     @Override
     public String toString() {

@@ -6,10 +6,10 @@
 
 	<session-factory>
 
-		<property name="connection.driver_class">com.mysql.jdbc.Driver</property>
-		<property name="connection.url">jdbc:mysql://localhost:3306/apsc?useSSL=false&amp;serverTimezone=UTC</property>
-		<property name="connection.username">skstudent</property>
-		<property name="connection.password">skstudent</property>
+		<property name="connection.driver_class">com.mysql.cj.jdbc.Driver</property>
+		<property name="connection.url">jdbc:mysql://arsenalpolandsc.atthost24.pl :3306/7340_typer?useSSL=false&amp;serverTimezone=UTC</property>
+		<property name="connection.username">7340</property>
+		<property name="connection.password">GOoner123#</property>
 
 
 
